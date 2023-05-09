@@ -1,0 +1,28 @@
+{
+
+"homepageSliderDefault":"h1[class='heading-2']",
+"homepageSlider2":"div[class='bx-viewport'] li:nth-child(4) div",
+"homepageSliderLength":"li[class='homeslider-container']",
+"popularTab":"li[class='active']",
+"pupularProductList":"ul[class='product_list grid row homefeatured tab-pane active']",
+"pupularProductList2":"ul.product_list.grid.row.homefeatured.tab-pane.active",
+"productName":"a[class='product-name']",
+"productName2":"a.product-name"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
