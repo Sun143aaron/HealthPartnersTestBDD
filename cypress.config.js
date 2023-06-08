@@ -21,7 +21,7 @@ module.exports = defineConfig({
       "retries": 2, 
       "chromeWebSecurity": false,
       "specPattern": [
-      //"cypress/e2e/**.js",
+      "cypress/e2e/**.js",
       "**/*.feature"
     ],
     setupNodeEvents,

@@ -84,13 +84,16 @@ When(/^user adds the product to the cart$/, () => {
 Then(/^user should see a message "([^"]*)" displayed on the screen$/, () => {
 
 	//removing expression /\n/g which matches all newline characters in the string and replaces them with an empty string ''
-    cy.get(elements.assert_Cart_Text).should(($el) => {
+    cy.get(elements.assert_Cart_Text).then(($el) => {
 		const text = $el.text();
 		const cleanText = text.trim();
-		expect(cleanText).to.eq('There are 1 items in your cart.');
-	  });
+		expect($el.text().trim()).to.eq('There are 1 items in your cart.');
+       // expect(cleanText.includes('There are 1 items in your cart.')).to.be.true;	  
+	});
 	  		  
 });
+
+
 
 When(/^user clicks on the "([^"]*)" button$/, () => {
 
@@ -109,5 +112,8 @@ When(/^user opens the cart and removes the item from the cart$/, () => {
 Then(/^user should see an alert message displayed on the Cart Summary page.$/, () => {
 	
 	cy.get(elements.cart_Summary).should('contain.text','Your shopping cart is empty.' )
+
+
+	
 
 });
