@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 import { Given, When, Then, And } from "@badeball/cypress-cucumber-preprocessor";
-import * as elements from '../../../support/step_definition/keyword/maping-importer';
+import * as elements from '../../../support/fix-step/Nest/group-import';
 
 
 Given(/^user navigates to the Prestashop website$/, () => {
@@ -117,3 +117,4 @@ Then(/^user should see an alert message displayed on the Cart Summary page.$/, (
 	
 
 });
+

@@ -1,0 +1,15 @@
+{
+
+"iframeElement":"div[id='sp_message_container_784380'] iframe",
+"cookies":"button[title='Accept']",
+"sportTab":"span[class='e-navigation-primary-item__link-content']",
+"offerPopup":"svg[class='martech-modal-component__close-icon']",
+"sportDropdown":".accordion__trigger",
+"differentSportTab":".e-navigation-secondary-item__link-text",
+"subCategoryTab":".e-navigation-tertiary-item__link-content"
+
+
+
+
+
+}

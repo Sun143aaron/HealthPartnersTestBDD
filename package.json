@@ -17,7 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.39.0",
-    "cypress": "^12.11.0"
+    "cypress": "^12.11.0",
+    "cypress-iframe": "^1.0.1"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^17.0.0",

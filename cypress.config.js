@@ -16,10 +16,10 @@ async function setupNodeEvents(on, config) {
 }
 
 module.exports = defineConfig({
-
+  "chromeWebSecurity": false,
   e2e: {
-      "retries": 2, 
-      "chromeWebSecurity": false,
+      //"retries": 2, 
+      //"chromeWebSecurity": false,
       "specPattern": [
       "cypress/e2e/**.js",
       "**/*.feature"

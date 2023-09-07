@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 import { Given, When, Then, And } from "@badeball/cypress-cucumber-preprocessor";
-import * as elements from '../../../support/step_definition/keyword/maping-importer';
+import * as elements from '../../../support/fix-step/Nest/group-import';
 
 let firstname = 'Sunil'
 let lastname = 'Baria'
