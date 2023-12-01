@@ -5,7 +5,7 @@
 "Email":"#email_create",
 "Create_Button":"#SubmitCreate",
 "Page_Heading":".page-subheading",
-"Email_Field":".is_required.validate.form-control",
+"Email_Field":"#email",
 "Gender_Mr":"#id_gender1",
 "Gender_Mrs":"#id_gender2",
 "First_Name":"#customer_firstname",
